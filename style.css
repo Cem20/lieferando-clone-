@@ -1,0 +1,1020 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border-bottom: 2px;
+    box-shadow: 0 8px 6px -12px black; 
+    
+}
+
+.dn{
+    display: none !important;
+}
+
+.fisthalf{
+    width: 50%;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.sechalf{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 70px;
+    width: 50%;
+   
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 30px;
+    gap: 17px;
+}
+
+.navimg{   
+    height: 50px;
+}
+
+.dd{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    width: 50%;
+}
+
+.deflag{
+    height: 50px;
+}
+.respmen{
+    display: none;
+    height: 40px;
+}
+.respmen:hover{
+    cursor: pointer;
+}
+.FirstPizzaImg{
+    width: 80%;
+    object-fit: cover;
+    height: 300px;
+    display: inline;
+}
+
+.thirdsek{
+    width: 80%;
+    height: 200px;
+ 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.RestaurantLogo{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.FormateRestaurantLogo{
+    height: 50px;
+}
+
+.FormateThirdsec{
+    margin-left: 20%;
+    position: relative;
+    bottom: 55px;
+}
+
+.smallerIcon{
+    height: 25px;
+    color: green;
+}
+
+.LikeAndTitleSec{
+    display: flex;
+    justify-content: space-between;
+}
+
+.LikeAndTitleSec h1{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.LikeSec{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-right: 30%;
+}
+
+.Reviews{
+    height: 46px;
+}
+
+.MinBestellWertIcon{
+    height: 14px;
+}
+
+.ZehnEuro{
+    margin-top: 0;
+    position: relative;
+    bottom: 2px;
+}
+
+.MinBestellWert{
+    display: flex;
+    gap: 10px;
+}
+
+#shoppingbasket{
+    font-size: 12px;
+    width: 10%;
+    height: 2791px;
+    width: 388px;
+    z-index: 5;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    position: sticky;
+    position: absolute;
+    top: 70px;
+    background-color: white;
+    
+}
+
+.basket{
+    display: flex;
+    flex-direction: column;
+}
+.nobasket{
+    display: flex;
+    flex-direction: column;
+}
+
+#FormateBasket{
+    display: flex;
+    justify-content: end;
+}
+
+.foodCategories{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+
+.foodCategories a{
+    text-decoration: none;
+    color: black;
+    padding: 13px;
+}
+
+
+
+.Warenkorb{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Warenkorb h2{
+    display: flex;
+    justify-content: center;
+}
+
+.Warenkorb img{
+    height: 30px;
+}
+
+#fdw{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#fdw h2{
+    margin-bottom: 10px;
+}
+
+#fdw p{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    gap: 20px;
+}
+
+/*JS Styöe */
+#menu{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 76.5%;
+    gap: 10px;  
+    font-weight: bold;
+}
+
+#menu p{
+    cursor: pointer;
+    display: flex;
+  
+    position: relative;
+    bottom: 60px;
+}
+
+.asas{
+    width: 800px;
+    padding: 26px;    
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DBD9D7;
+}
+
+
+
+.isam{
+    display: flex;
+    flex-direction: column;
+}
+
+.pfm{
+    display: inline;
+    position: relative;
+    top: 50px;
+}
+
+.changeh{
+   object-fit: cover;
+    height: 170px;
+    width: 850px;
+    display: block;
+    border-radius: 12px;
+    margin-bottom: 0;
+}
+
+.defgap{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#newmen{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bgb{
+    display: flex;
+    gap: 17px;
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.newflex{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 44px;   
+}
+.hs{
+    display: flex;
+    gap: 20px;
+}
+
+.font{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.font:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pp{
+   display: flex;
+   position: relative;
+   right: 90px;
+   
+}
+.nfs{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 10px;
+    left: 210px;
+}
+
+hr{
+    color: yellow;
+    size: 2px;
+    width: 340px;
+}
+
+.newamount{
+    display: flex;
+    align-items: center;
+}
+
+.newwatch{
+    background-color: #F5F3F1;
+    border: none;
+   
+    border-radius: 30px;
+}
+
+.neformated{
+   position: relative;
+   margin-bottom: 20px;
+}
+
+.formated{
+   display: flex; 
+   width: 100%;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.butform{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+    gap: 4px;
+}
+
+.butform p{
+    margin: 0;
+}
+
+.but1{
+    border: none;
+    background-color: #DBD9D7;
+    padding: 10px;
+    font-size: 17px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.but2{
+    background-color: #FF8000;
+    border: none;
+    padding: 10px;
+    font-size: 17px;
+}
+
+/*hoverdesign*/ 
+
+.foodCategories a:hover{
+    cursor: pointer;
+   background-color: #F5F3F1;
+   border-radius: 42px;
+}
+
+.asas:hover{
+    background-color: #DBD9D7;
+}
+
+#newerg button:hover{
+    cursor: pointer !important;
+}
+
+
+
+.vers{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    border-radius: 19px;
+    width: 300px;
+    background-color: #FFF9DF;
+    position: relative;
+    left: 26px;
+}
+
+.tt{
+    margin-top: 16px;
+}
+
+.spez1 p{
+    margin: 0;
+}
+
+.spez2 p{
+    margin: 0;
+}
+
+.rri {
+ font-style: normal;
+ font-size: 14px;
+ font-weight: lighter;
+ color: #3C4C4F;
+ position: relative;
+ top: 10px;
+}
+
+.HinzFormate{
+    position: relative;
+    bottom: 101px !important;
+    display: flex;
+    justify-content: end;
+}
+.net{
+    display: flex;
+   
+}
+.ret{
+    display: flex;
+}
+
+.hoho{
+    position: sticky;
+    inset: 0;
+    top: 0px;
+    left: 1000px;
+}
+
+.liln{
+    height: 22px;
+}
+
+.cf{
+    
+    position: relative;
+    top: 30px;
+}
+
+footer{
+    margin-top: 40px;
+    width: 100%;
+    background-color: #EFEDEA;
+}
+
+.Social-Media{
+    display: flex;
+    gap: 10px;
+}
+
+.Social-Media img{
+    height: 20px;
+}
+
+.copyright p{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.formate-footer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text-gap{
+    display: flex;
+    gap: 15px;
+}
+
+.text-gap a{
+    text-decoration: none;
+    color: black;
+}
+
+.text-gap a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.butformate button{
+  width: 300px;
+  color: #8C99A5;
+  background-color: #EFEDEA;
+  font-weight: bold;
+  padding: 12px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.butformate{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.zwischensum{
+    margin-left: 44px;
+    margin-right: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*color change */
+.ColorChange{
+    background-color: #F36805 !important;
+    color: white !important;
+}
+
+.formatep{
+    margin-left: 44px;
+}
+
+.Weight{
+    font-weight: 700;
+}
+
+.nd{
+    display: none !important;
+}
+
+.pid{
+    display: block !important;
+    position: fixed !important;
+    inset: 0;
+    top: 0 !important;
+    width: 100% !important;
+}
+
+.sdff{
+    z-index: 20 !important;
+    color: gray;
+    position: absolute;
+}
+
+.defnone{
+    display: none !important;
+}
+
+.newp{
+    color: #F36805;
+}
+
+.net{
+    display: none;
+}
+
+.transl{
+    transform: translateX(0) !important;
+    transition: all 225ms ease-in-out;
+    
+}
+.but2:hover{
+    cursor: pointer;
+}
+.asas:hover{
+    cursor: pointer;
+}
+
+@media(max-width: 1370px){
+    .FormateThirdsec{
+        margin-left: 4.3%;
+        position: relative;
+        bottom: 55px;
+    }
+    #menu{
+        position: relative;
+        right: 40px;
+    }
+}
+
+@media(max-width: 1351px){
+    .FormateThirdsec{
+        margin-left: 2%;
+        position: relative;
+        bottom: 55px;
+    }
+    #menu{
+        position: relative;
+        right: 64px;
+    }
+}
+
+@media(max-width: 1310px){
+    .FormateThirdsec{
+        margin-left: 16.5%;
+    }
+    #shoppingbasket{
+        height: 2850px
+    }
+    .changeh{
+        width: 500px;
+    }
+    .asas{
+        width: 450px;
+    }
+}
+
+@media(max-width: 1310px){
+    .FormateThirdsec{
+        margin-left: 5.7%;
+    }
+    #menu{
+        position: relative;
+        right: 200px;
+    }
+    .changeh{
+        width: 600px;
+        position: relative;
+        left: 70px;
+    }
+    .asas{
+        width: 550px;
+        position: relative;
+        left: 70px;
+    }
+    .newp{
+        position: relative;
+        left: 70px;
+    }
+    #shoppingbasket{
+        height: 2830px
+    }
+    #formateHinzP3{
+        position:  relative !important;
+        bottom: 130px !important;
+    }
+    #formateHinzP4{
+        position:  relative !important;
+        bottom: 130px !important; 
+    }
+}
+@media(max-width: 1230px){
+    .FormateThirdsec{
+        right: 30px;
+    }
+}
+@media(max-width: 1170px){
+    .FormateThirdsec{
+        left: 10px;
+    }
+    .changeh{
+        width: 600px;
+        position: relative;
+        left: 120px;
+    }
+    .asas{
+        width: 550px;
+        position: relative;
+        left: 120px;
+    }
+    .newp{
+        position: relative;
+        left: 120px;
+    }
+}
+
+@media(max-width: 1030px){
+    .changeh{
+        width: 400px;
+    }
+    .asas{
+        width: 360px;
+    }
+    .FormateThirdsec{
+        margin-left: 90px;
+    }
+    .smallerIcon{
+        position: relative;
+        right: 60px;
+    }
+    #shoppingbasket{
+        height: 2909px;
+    }
+    #formateHinzP1{
+        position: relative !important;
+        bottom: 120px !important;
+    }
+    #formateHinzP4{
+        position: relative !important;
+        bottom: 140px !important;
+    }
+    #formateHinzP5{
+        position: relative !important;
+        bottom: 130px !important;
+    }
+
+    #formateHinzP6{
+        position: relative !important;
+        bottom: 130px !important; 
+    }
+}
+
+@media(max-width: 980px){
+    .FormateThirdsec{
+        margin-left: 2%;
+    }
+    .changeh{
+ 
+        position: relative;
+        left: 70px;
+    }
+    .asas{
+ 
+        position: relative;
+        left: 70px;
+    }
+    .newp{
+        left: 70px;
+    }
+   
+}
+
+@media(max-width: 980px){
+    .FormateThirdsec{
+        margin-left: 2%;
+    }
+    .changeh{
+ 
+        position: relative;
+        left: 70px;
+    }
+    .asas{
+ 
+        position: relative;
+        left: 70px;
+    }
+    .newp{
+        left: 70px;
+    }
+    #respmenchange{
+        display: none;
+    }
+   
+}
+
+@media(max-width: 909px){
+    #respmenchange{
+        display: block;
+    }
+    #shoppingbasket{
+        transform: translateX(388px);
+        height: 2830px;
+    }
+    .FirstPizzaImg{
+        width: 100%;
+    }
+    .thirdsek{
+        width: 100%;
+    }
+    .smallerIcon{
+        left: 0;
+    }
+    .FormateThirdsec{
+        margin-left: 10%;
+    }
+    .sgs{
+        display: flex;
+        justify-content: end;
+    }
+    .changeh{
+        width: 600px;
+    }
+    .asas{
+        width: 550px;
+    }
+    .net{
+        display: block;
+        position: fixed;
+        inset: 0;
+        top: 500px;
+    }
+    
+    
+    .respmen{
+        display: block;
+    }
+}
+
+@media(max-width: 832px){
+    .fisthalf p{
+        display: none;
+    }
+   .FormateThirdsec{
+    margin-left: 6%;
+   }
+}
+
+@media(max-width: 765px){
+    .FormateThirdsec{
+     margin-left: 3%;
+    }
+ }
+
+ @media(max-width: 715px){
+    .changeh{
+        position: relative;
+        left: 90px;
+    }
+    .asas{
+        position: relative;
+        left: 90px;
+    }
+    .newp{
+        position: relative;
+        left: 90px;
+    }
+
+ }
+
+ 
+ @media(max-width: 700px){
+    .changeh{
+        position: relative;
+        left: 120px;
+    }
+    .asas{
+        position: relative;
+        left: 120px;
+    }
+    .newp{
+        position: relative;
+        left: 120px;
+    }
+    
+
+ }
+
+ @media(max-width: 650px){
+    .FormateThirdsec{
+        margin-left: 9%;
+    }
+    .changeh{
+       width: 500px;
+    }
+    .asas{
+        width: 450px;
+    }
+    .newp{
+        position: relative;
+        left: 120px;
+    }
+    #shoppingbasket{
+        height: 2850px ;
+    }
+    
+ }
+
+ @media(max-width: 630px){
+    .FormateThirdsec{
+        margin-left: 9%;
+    }
+    .changeh{
+       left: 140px;
+    }
+    .asas{
+        left: 140px;
+    }
+    .newp{
+        position: relative;
+        left: 140px;
+    }
+    .Social-Media{
+        display: none;
+    }
+    .footer{
+        font-size: 14px;
+    }
+    
+ }
+
+ @media(max-width: 590px){
+    .FormateThirdsec{
+        margin-left: 9%;
+    }
+    .changeh{
+      width: 400px;
+    }
+    .asas{
+        width: 350px;
+    }
+    .newp{
+        position: relative;
+        left: 140px;
+    }
+    .smallerIcon{
+        display: none;
+    }
+    #shoppingbasket{
+        height: 2927px ;
+    }
+    footer{
+        padding-top: 0;
+    }
+    footer a{
+        margin-top: 10px;
+    }
+ }
+
+ @media(max-width: 530px){
+    
+ }
+
+ @media(max-width: 444px){
+    .FormateThirdsec{
+        margin-left: 9%;
+    }
+    .changeh{
+      width: 350px;
+    }
+    .asas{
+        width: 300px;
+    }
+    .newp{
+        position: relative;
+        left: 140px;
+    }
+    footer{
+        font-size: 12px !important;
+    }
+    .fisthalf p{
+        display: none;
+    }
+    #shoppingbasket{
+        height: 3097px;
+    }
+ }
+
+ @media(max-width: 400px){
+    .FormateThirdsec{
+        margin-left: 9%;
+    }
+    .changeh{
+      width: 350px;
+      left: 160px;
+    }
+    .asas{
+        
+        left: 160px;
+    }
+    .newp{
+        position: relative;
+        left: 160px;
+    }
+    
+ }
+
+ @media(max-width: 383px){
+    .thirdsek{
+        height: 236px;
+        font-size: 13px;
+    }
+    .changeh{
+        width: 250px;
+    }
+    .asas{
+        width: 200px;
+    }
+    footer{
+        padding-left: 10px;
+    }
+    #shoppingbasket{
+        font-size: 12px;
+        width: 360px;
+        font-size: 14px;
+        height: 3350px;
+    }
+    .newflex{
+        justify-content: space-between;
+    }
+    
+ }
+
+ @media(max-width: 339px){
+    hr{
+        width: 600px;
+    }
+    .butformate{
+        position: relative;
+        left: 20px;
+    }
+ }
+
